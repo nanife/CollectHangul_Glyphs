@@ -4,3 +4,5 @@
 
 This is a plugin for Glyphs that select or input hangul characters(glyphs) by selecting consonants and vowels. It is a demo version that works for 15 days, and you need authorization to use full versions.
 if you want to use it, email me nanife (at) linegap.com
+
+![My image](nanife.github.com/CollectHangul_Glyphs/mainview.png)
