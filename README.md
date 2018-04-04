@@ -20,3 +20,7 @@ This is a plugin for Glyphs that select or input Korean hangul characters(glyphs
 7. <b>조합 그룹 등록</b>(register all the selected to new group list) : 선택된 자소들, 정렬 순서, 조합 결과를 등록하거나, 이미 등록된 그룹을 변경(register each selected consonants, vowels,sort order, composed characters into new composed group list / update selected composed group with the selected condition)
 8. <b>등록된 그룹</b>(registered group) : 사용자가 등록한 조합 그룹, 조합 그룹 편집(registered compsed characters' group / edit group list)
 9. <b>그룹 정보 관리</b>(managing groups) : 현재 저장된 모든 그룹 정보를 내보내고, 불러오고, 초기화하는 기능(functions for export, import, reset)
+
+<br>
+동영상 링크입니다.
+https://youtu.be/eIovjJScv74
