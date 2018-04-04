@@ -25,9 +25,9 @@
 	<key>productPageURL</key>
 	<string>https://www.linegap.com/portfolio-items/collect-hangul-in-glyphs</string>
 	<key>productReleaseNotes</key>
-	<string>First released on 201800402.</string>
+	<string>First released on 201800404.</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright, DaekwonKim(LineGap.com), 2016-2018</string>
+	<string>Copyright, DaekwonKim(LineGap.com), 2018-</string>
 	<key>NSPrincipalClass</key>
 	<string>CollectHangul</string>
 	<key>PyMainFileNames</key>
