@@ -18,8 +18,8 @@ import traceback
 
 class CollectHangul(GeneralPlugin):
 	def settings(self):
-		self.menuName = Glyphs.localize({'en': u'_Collect Hangul', 'ko': u'_한글 모으기'})
-#		self.menuName = u'_한글 모으기'
+#		self.menuName = Glyphs.localize({'en': u'_Collect Hangul', 'ko': u'_한글 모으기'})
+		self.menuName = u'_한글 모으기'
 		self.numWindows = [0]
 
 	def start(self):
