@@ -1,8 +1,8 @@
 # CollectHangul_Glyphs
 글립스(Glyphs)에서 초성, 중성, 종성 자소 선택으로 한글을 선택 및 입력하는 플러그인입니다.
-(15일 데모 버전이며, 정식 등록은 http://www.linegap.com/portfolio-items/collect-hangul-in-glyphs/ 을 통해 안내 받으실 수 있습니다.)
+(15일 데모 버전이며, 정식 등록은 <a href="http://www.linegap.com/portfolio-items/collect-hangul-in-glyphs/">라인갭 홈페이지</a>를 통해 안내 받으실 수 있습니다.)
 
-This is a plugin for Glyphs that select or input Korean hangul characters(glyphs) by selecting consonants and vowels. It is a demo version that works for 15 days, and you need authorization to use full versions.<br>if you want to use it, email me <a href="http://www.linegap.com">nanife (at) linegap.com</a>
+This is a plugin for Glyphs that select or input Korean hangul characters(glyphs) by selecting consonants and vowels. It is a demo version that works for 15 days, and you need authorization to use full versions.<br>if you want to use it, email me <a mailto:nanife@linegap.com">nanife (at) linegap.com</a>
 
 ![mainView00](./mainView.png)
 
@@ -22,5 +22,4 @@ This is a plugin for Glyphs that select or input Korean hangul characters(glyphs
 9. <b>그룹 정보 관리</b>(managing groups) : 현재 저장된 모든 그룹 정보를 내보내고, 불러오고, 초기화하는 기능(functions for export, import, reset)
 
 <br>
-동영상 링크입니다.
-https://youtu.be/eIovjJScv74
+<a href="https://youtu.be/eIovjJScv74">동영상 보기</a>
