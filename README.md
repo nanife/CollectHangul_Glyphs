@@ -22,4 +22,4 @@ This is a plugin for Glyphs that select or input Korean hangul characters(glyphs
 9. <b>그룹 정보 관리</b>(managing groups) : 현재 저장된 모든 그룹 정보를 내보내고, 불러오고, 초기화하는 기능(functions for export, import, reset)
 
 <br>
-<a href="https://youtu.be/eIovjJScv74">동영상 보기</a>
+<a href="https://youtu.be/eIovjJScv74">동영상 보러 가기</a>
