@@ -4,7 +4,7 @@
 
 This is a plugin for Glyphs that select or input Korean hangul characters(glyphs) by selecting consonants and vowels. It is a demo version that works for 15 days, and you need authorization to use full versions.<br>if you want to use it, email me <a href="mailto:nanife@linegap.com">nanife (at) linegap.com</a>
 
-![mainView00](./mainView.png)
+![mainView00](./mainView-2.png)
 
 
 * explanations
