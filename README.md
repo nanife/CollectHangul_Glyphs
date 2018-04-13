@@ -9,7 +9,7 @@ This is a plugin for Glyphs that select or input Korean hangul characters(glyphs
 
 * 설명(explanations)
 
-![mainView01](./mainView-Kor.png)
+![mainView01](./mainView_Kor.png)
 
 1. <b>언어 설정</b>(language) : 한글 / 영문 중 원하는 언어를 선택할 수 있음(select Hangul or English)
 2. <b>초성 그룹</b>(chosung : first consonants) : 선택된 초성 자소들을 그룹으로 등록, 등록된 그룹을 편집(register selected consonants to group list and edit group list)
@@ -24,7 +24,7 @@ This is a plugin for Glyphs that select or input Korean hangul characters(glyphs
 11. <b>등록된 그룹</b>(registered group) : 사용자가 등록한 조합 그룹, 조합 그룹 편집(registered composed characters' group / edit group list)
 12. <b>최근 선택된 결과</b>(latest selection) : 가장 최근에 선택되었던 그룹(latest selected group)
 13. <b>그룹 정보 관리</b>(managing groups) : 현재 저장된 모든 그룹 정보를 내보내고, 불러오고, 초기화하는 기능(functions for export, import, reset)
-![mainView02](./mainView-Eng.png)
+![mainView02](./mainView_Eng.png)
 
 ![forCustomFilters](./customFilter.png)
 
