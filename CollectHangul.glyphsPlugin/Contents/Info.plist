@@ -19,9 +19,9 @@
 	<key>CFBundleVersion</key>
 	<string>4</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.10</string>
 	<key>UpdateFeedURL</key>
-	<string>https://www.linegap.com/_plugins/glyphs/CollectHangul.glyphsPlugin/Contents/Info.plist</string>
+	<string>https://raw.githubusercontent.com/nanife/CollectHangul_Glyphs/master/CollectHangul.glyphsPlugin/Contents/Info.plist</string>
 	<key>productPageURL</key>
 	<string>https://www.linegap.com/portfolio-items/collect-hangul-in-glyphs</string>
 	<key>productReleaseNotes</key>

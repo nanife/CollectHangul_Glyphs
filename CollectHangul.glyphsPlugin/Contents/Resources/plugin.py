@@ -16,16 +16,22 @@ from GlyphsApp import *
 from GlyphsApp.plugins import *
 import traceback
 
+LANGUAGES = {'Eng':0, 'Kor': 1}
+defaultID = u'com.LineGap.CollectHangul'
+
 class CollectHangul(GeneralPlugin):
 	def settings(self):
-#		self.menuName = Glyphs.localize({'en': u'_Collect Hangul', 'ko': u'_한글 모으기'})
-		self.menuName = u'_한글 모으기'
+		self.lang = LANGUAGES['Eng']
+		if Glyphs.defaults['%s.language' % defaultID] in [0, 1]:
+			self.lang = Glyphs.defaults['%s.language' % defaultID]
+
+		self.menuName = ['_Collect Hangul', u'_한글 모으기'][self.lang]
 		self.numWindows = [0]
+		Glyphs.defaults['%s.language' % defaultID] = self.lang
 
 	def start(self):
 		try: 
 			targetMenu = FILTER_MENU
-			separator = NSMenuItem.separatorItem()
 			newMenuItem = NSMenuItem(self.menuName, self.showWindow)
 			Glyphs.menu[targetMenu].insert(2, newMenuItem)
 		except:
@@ -40,30 +46,37 @@ class CollectHangul(GeneralPlugin):
 		""" Do something like show a window"""
  		try:
  			if 0 == len(Glyphs.fonts):
-				Message(u'❓ 오류 ❓', u'활성화된 폰트 창이 없습니다!')
+ 				strError = [u'❓ error ❓', u'❓ 오류 ❓'][self.lang]
+ 				strMessage = ['There is no opened font!', u'활성화된 폰트 창이 없습니다!'][self.lang]
+				Message(strError, strMessage)
 				return
  			if self.numWindows[0] != 0:
  				return
 
  			Glyphs.clearLog()
- 			import Common as CM
- 			reload(CM)
-			cm = CM.Common()
+ 			# import Common as CM
+ 			# reload(CM)
+ 			import CollectHangulModule as CH
+			reload(CH)
+ 			CH.Run(self.numWindows, self.lang)
 
- 			value = cm.gL()
- 			if value[0] in [0, 1] and 0 <= value[1]:
-		 		import CollectHangulModule as CH
-		 		reload(CH)
-	 			w = CH.Collect(self.numWindows, value[0])
-	 			w.run()
-	 		else:
-	 			Message(u'❓ 오류 ❓', u'사용 기간이 만료되었거나 인증 정보가 없습니다.\n등록 후 사용 가능합니다!')
-		 		import CollectHangulModule as CH
-		 		reload(CH)
-		 		strChallenge = cm.gC()
-	 			wAuth = CH.Authorize(strChallenge, self.numWindows)
-	 			wAuth.w.center()
-	 			wAuth.w.open()
+			# cm = CM.Common()
+ 		# 	value = cm.gL()
+
+ 		# 	if value[0] in [0, 1] and 0 <= value[1]:
+		 # 		import CollectHangulModule as CH
+	 	# 		w = CH.Collect(self.numWindows, value[0])
+	 	# 		w.run()
+	 	# 	else:
+ 		# 		strError = [u'❓ error ❓', u'❓ 오류 ❓'][self.lang]
+ 		# 		strMessage = ['Usable period expired! Use after authorization.', u'사용 기간이 만료되었거나 인증 정보가 없습니다.\n등록 후 사용 가능합니다!'][self.lang]
+	 	# 		Message(strError, strMessage)
+		 # 		import CollectHangulModule as CH
+		 # 		reload(CH)
+		 # 		strChallenge = cm.gC()
+	 	# 		wAuth = CH.Authorize(strChallenge, self.numWindows)
+	 	# 		wAuth.w.center()
+	 	# 		wAuth.w.open()
  		except:
  			print traceback.format_exc()
 
