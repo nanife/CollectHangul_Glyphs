@@ -50,12 +50,13 @@ class CollectHangul(GeneralPlugin):
 				Message(strError, strMessage)
 				return
  			if [0] != self.numWindows:
- 				strError = [u'❓ error ❓', u'❓ 오류 ❓'][self.lang]
+				strError = [u'❓ error ❓', u'❓ 오류 ❓'][self.lang]
  				strMessage = ['The plugin window already opened!', u'플러그인 창이 이미 열려 있습니다!'][self.lang]
  				return
 
  			Glyphs.clearLog()
  			import CollectHangulModule as CH
+
 			reload(CH)
  			CH.Run(self.numWindows, self.lang)
 
