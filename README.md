@@ -27,7 +27,7 @@ This is a plugin for Glyphs that select or input Korean hangul characters(glyphs
 ![mainView02](./mainView_Eng.png)
 
 ![forCustomFilters](./customFilter.png)
-
+<br><br>
 * <b>업그레이드(upgrade to v1.5)</b>
 
 ![mainView01-1](./mainView_kor1.png)
