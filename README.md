@@ -28,13 +28,16 @@ This is a plugin for Glyphs that select or input Korean hangul characters(glyphs
 
 ![forCustomFilters](./customFilter.png)
 
-* 업그레이드(update to v1.5)
+* <b>업그레이드(update to v1.5)</b>
+
 ![mainView01-1](./mainView_kor1.png)
+
 a. <b>자소 순서 정렬</b>(sort consonants, vowels) : 자소의 순서를 정렬할 수 있고, 조합되는 문장이 자소의 순서를 따름(composed characters are sorted according to the order of sorted consonants and vowels)
 
 b. <b>한글 그룹 추가</b>(added new hangul group) : Adobe-KR9 한글 그룹(2,780자:KS 2,350자 + 확장한글 430자) 추가(added new hangul character group for Adobe-KR9; 2,780 characters: KS 2,350 hangul + 430 extended hangul)
 
 c. <b>한글 문장 나눔</b>(separate composed hangul characters) : 조합된 한글 문장의 KS 한글과 확장한글을 나누어 볼지 결정(select whether to separate KS hangul characters and extended hangul characters)
+
 ![mainView02-1](./mainView_eng1.png)
 
 <br>
