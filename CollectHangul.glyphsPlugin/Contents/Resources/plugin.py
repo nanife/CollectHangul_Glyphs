@@ -11,6 +11,7 @@
 #
 ###########################################################################################################
 
+from __future__ import division, print_function, unicode_literals
 import objc
 from GlyphsApp import *
 from GlyphsApp.plugins import *
@@ -20,6 +21,7 @@ LANGUAGES = {'Eng':0, 'Kor': 1}
 defaultID = u'com.LineGap.CollectHangul'
 
 class CollectHangul(GeneralPlugin):
+	@objc.python_method
 	def settings(self):
 		self.lang = LANGUAGES['Eng']
 		if Glyphs.defaults['%s.language' % defaultID] in [0, 1]:
@@ -28,20 +30,21 @@ class CollectHangul(GeneralPlugin):
 		self.menuName = ['_Collect Hangul', u'_한글 모으기'][self.lang]
 		self.numWindows = [0]
 
+	@objc.python_method
 	def start(self):
 		try: 
 			targetMenu = FILTER_MENU
-			newMenuItem = NSMenuItem(self.menuName, self.showWindow)
+			newMenuItem = NSMenuItem(self.menuName, self.showWindow_)
 			Glyphs.menu[targetMenu].insert(2, newMenuItem)
 		except:
 			mainMenu = Glyphs.mainMenu()
-			s = objc.selector(self.showWindow, signature='v@:@')
+			s = objc.selector(self.showWindow_, signature='v@:@')
 			newMenuItem = NSMenuItem.alloc().initWithTitle_action_keyEquivalent_(self.menuName, s, "")
 			newMenuItem.setTarget_(self)
 			mainMenu.itemWithTag_(11).submenu().insertItem_atIndex_(newMenuItem, 2)#addItem_(newMenuItem)
-			print traceback.format_exc()
+			print(traceback.format_exc())
 
-	def showWindow(self, sender):
+	def showWindow_(self, sender):
 		""" Do something like show a window"""
  		try:
  			if 0 == len(Glyphs.fonts):
@@ -61,8 +64,9 @@ class CollectHangul(GeneralPlugin):
  			CH.Run(self.numWindows, self.lang)
 
  		except:
- 			print traceback.format_exc()
+			print(traceback.format_exc())
 
+	@objc.python_method
 	def __file__(self):
 		"""Please leave this method unchanged"""
 		return __file__
