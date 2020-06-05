@@ -46,24 +46,24 @@ class CollectHangul(GeneralPlugin):
 
 	def showWindow_(self, sender):
 		""" Do something like show a window"""
- 		try:
- 			if 0 == len(Glyphs.fonts):
- 				strError = [u'❓ error ❓', u'❓ 오류 ❓'][self.lang]
- 				strMessage = ['There is no opened font!', u'활성화된 폰트 창이 없습니다!'][self.lang]
+		try:
+			if 0 == len(Glyphs.fonts):
+				strError = [u'❓ error ❓', u'❓ 오류 ❓'][self.lang]
+				strMessage = ['There is no opened font!', u'활성화된 폰트 창이 없습니다!'][self.lang]
 				Message(strError, strMessage)
 				return
- 			if [0] != self.numWindows:
+			if [0] != self.numWindows:
 				strError = [u'❓ error ❓', u'❓ 오류 ❓'][self.lang]
- 				strMessage = ['The plugin window already opened!', u'플러그인 창이 이미 열려 있습니다!'][self.lang]
- 				return
+				strMessage = ['The plugin window already opened!', u'플러그인 창이 이미 열려 있습니다!'][self.lang]
+				return
 
- 			Glyphs.clearLog()
- 			import CollectHangulModule as CH
+			Glyphs.clearLog()
+			import CollectHangulModule as CH
 
 			reload(CH)
- 			CH.Run(self.numWindows, self.lang)
+			CH.Run(self.numWindows, self.lang)
 
- 		except:
+		except:
 			print(traceback.format_exc())
 
 	@objc.python_method
