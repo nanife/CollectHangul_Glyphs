@@ -17,17 +17,13 @@ from GlyphsApp import *
 from GlyphsApp.plugins import *
 import traceback
 
-LANGUAGES = {'Eng':0, 'Kor': 1}
 defaultID = u'com.LineGap.CollectHangul'
 
 class CollectHangul(GeneralPlugin):
 	@objc.python_method
 	def settings(self):
-		self.lang = LANGUAGES['Eng']
-		if Glyphs.defaults['%s.language' % defaultID] in [0, 1]:
-			self.lang = Glyphs.defaults['%s.language' % defaultID]
-
-		self.menuName = ['_Collect Hangul', u'_한글 모으기'][self.lang]
+		self.menuName = Glyphs.localize({'en': '_Collect Hangul',
+										 'ko': '_한글 모으기'})
 		self.numWindows = [0]
 
 	@objc.python_method
@@ -48,13 +44,18 @@ class CollectHangul(GeneralPlugin):
 		""" Do something like show a window"""
 		try:
 			if 0 == len(Glyphs.fonts):
-				strError = [u'❓ error ❓', u'❓ 오류 ❓'][self.lang]
-				strMessage = ['There is no opened font!', u'활성화된 폰트 창이 없습니다!'][self.lang]
+				strError = Glyphs.localize({'en': '❓ error ❓',
+											'ko': '❓ 오류 ❓'})
+									
+				strMessage = Glyphs.localize({'en': 'There is no opened font!',
+											  'ko': '활성화된 폰트 창이 없습니다!'})
 				Message(strError, strMessage)
 				return
 			if [0] != self.numWindows:
-				strError = [u'❓ error ❓', u'❓ 오류 ❓'][self.lang]
-				strMessage = ['The plugin window already opened!', u'플러그인 창이 이미 열려 있습니다!'][self.lang]
+				strError = Glyphs.localize({'en': '❓ error ❓',
+											'ko': '❓ 오류 ❓'})
+				strMessage = Glyphs.localize({'en': 'The plugin window already opened!', 
+											  'ko': '플러그인 창이 이미 열려 있습니다!'})
 				return
 
 			Glyphs.clearLog()
