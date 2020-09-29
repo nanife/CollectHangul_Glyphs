@@ -13,7 +13,7 @@
 	<key>CFBundleName</key>
 	<string>CollectHangul</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.6</string>
+	<string>1.7</string>
 	<key>CFBundleVersion</key>
 	<string>5</string>
 	<key>UpdateFeedURL</key>
@@ -21,7 +21,7 @@
 	<key>productPageURL</key>
 	<string>https://www.linegap.com/portfolio-items/collect-hangul-in-glyphs</string>
 	<key>productReleaseNotes</key>
-	<string>First released on 201800402, v1.6 in 20200909</string>
+	<string>First released on 201800402, v1.7 in 20200929</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright, DaekwonKim(LineGap.com), 2016-2018</string>
 	<key>NSPrincipalClass</key>
