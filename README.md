@@ -42,3 +42,6 @@ c. <b>한글 문장 나눔</b>(separate composed hangul characters) : 조합된 
 
 <br>
 <a href="https://youtu.be/eIovjJScv74">동영상 보러 가기</a>
+
+* <b>업그레이드(upgrade to v2.0)</b>
+Glyphs v3.0 지원
