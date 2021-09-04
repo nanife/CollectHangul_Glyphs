@@ -10,7 +10,7 @@ import objc
 from GlyphsApp import *
 from GlyphsApp.plugins import *
 import traceback
-import imp
+#import imp
 import sys
 
 LANGUAGES = {'Eng':0, 'Kor': 1}
@@ -48,7 +48,7 @@ class CollectHangul(GeneralPlugin):
 		try:
 			if sys.version[0] == '3':
 				import CollectHangulModule3 as CH3
-				imp.reload(CH3)
+				#imp.reload(CH3)
 				CH3.Run()
 			else:	# Glyphs 2
 				if 0 == len(Glyphs.fonts):
