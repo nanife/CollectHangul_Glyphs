@@ -43,10 +43,10 @@ c. <b>한글 문장 나눔</b>(separate composed hangul characters) : 조합된 
 <br>
 <a href="https://youtu.be/eIovjJScv74">동영상 보러 가기</a>
 
-* <b>업그레이드(upgrade to v2.0)</b>
+* <b>업그레이드(upgrade to v2.0)</b></p>
 Glyphs v3.0 지원
 
-
+<p>
 * <b>업그레이드(upgrade to v2.5)</b>
 * 플러그인 형태를 스크립트 형태로 변환 (converted plugin into script)
 * M1 맥의 Glyphs 3.0 지원
