@@ -52,5 +52,5 @@ Glyphs v3.0 지원
 * M1 맥의 Glyphs 3.0 지원
 * 자소 선택 부분을 체크박스에서 버튼으로 변경(changed checkboxes into buttons for jaso selection)
 * 선택된 문자들을 필터로 등록할 수 있음(support filter registration of the selected characters)
-* Option 키를 이용한 단축키 지원(shortcut supported with 'Option')
+* Option 키를 이용한 단축키 지원(shortcut supported with 'Option' key)<br>
 <a href="https://github.com/nanife/GlyphsScripts_Commercial">한글모으기(Collect Hangul) V2.5 스크립트 받으러 가기</a>
