@@ -1,8 +1,8 @@
 # CollectHangul_Glyphs
-<br><br>
-<b>업그레이드(upgrade to v2.5)</b>
+
+## 업그레이드(upgrade to v2.5)
 * 플러그인 형태를 스크립트 형태로 변환 (converted plugin into script)
-* M1 맥의 Glyphs 3.0 지원
+* M1 맥의 Glyphs 3.0 지원(supports Glyphs 3.0 on M1 sillicon Mac)
 * 자소 선택 부분을 체크박스에서 버튼으로 변경(changed checkboxes into buttons for jaso selection)
 * 선택된 문자들을 필터로 등록할 수 있음(support filter registration of the selected characters)
 * Option 키를 이용한 단축키 지원(shortcut supported with 'Option' key)<br>
@@ -10,6 +10,7 @@
 <br><br>
 -----------------------------------------------------
 
+## 기능 설명(v1.0 기준)
 글립스(Glyphs)에서 초성, 중성, 종성 자소 선택으로 한글을 선택 및 입력하는 플러그인으로, 플러그인 관리자(Plugin Manager)에서 설치할 수 있습니다.
 (15일 데모 버전이며, 정식 등록은 <a href="http://www.linegap.com">라인갭 홈페이지</a>의 연락처를 통해 안내 받으실 수 있습니다.)
 
