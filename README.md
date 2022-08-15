@@ -1,8 +1,23 @@
 # CollectHangul_Glyphs
+<br><br>
+<b>업그레이드(upgrade to v2.5)</b>
+* 플러그인 형태를 스크립트 형태로 변환 (converted plugin into script)
+* M1 맥의 Glyphs 3.0 지원
+* 자소 선택 부분을 체크박스에서 버튼으로 변경(changed checkboxes into buttons for jaso selection)
+* 선택된 문자들을 필터로 등록할 수 있음(support filter registration of the selected characters)
+* Option 키를 이용한 단축키 지원(shortcut supported with 'Option' key)<br>
+<a href="https://github.com/nanife/GlyphsScripts_Commercial">한글모으기(Collect Hangul) V2.5 스크립트 받으러 가기</a>
+<br><br>
+-----------------------------------------------------
+
 글립스(Glyphs)에서 초성, 중성, 종성 자소 선택으로 한글을 선택 및 입력하는 플러그인으로, 플러그인 관리자(Plugin Manager)에서 설치할 수 있습니다.
 (15일 데모 버전이며, 정식 등록은 <a href="http://www.linegap.com">라인갭 홈페이지</a>의 연락처를 통해 안내 받으실 수 있습니다.)
 
 This is a plugin for Glyphs that select or input Korean hangul characters(glyphs) by selecting consonants and vowels. It is a demo version that works for 15 days, and you need authorization to use full versions.<br>if you want to use it, email me <a href="mailto:nanife@live.com">nanife (at) live.com</a>
+<br>
+
+
+
 
 ![mainView00](./mainView-2.png)
 
@@ -46,11 +61,4 @@ c. <b>한글 문장 나눔</b>(separate composed hangul characters) : 조합된 
 * <b>업그레이드(upgrade to v2.0)</b></p>
 Glyphs v3.0 지원
 
-<br><br>
-* <b>업그레이드(upgrade to v2.5)</b>
-* 플러그인 형태를 스크립트 형태로 변환 (converted plugin into script)
-* M1 맥의 Glyphs 3.0 지원
-* 자소 선택 부분을 체크박스에서 버튼으로 변경(changed checkboxes into buttons for jaso selection)
-* 선택된 문자들을 필터로 등록할 수 있음(support filter registration of the selected characters)
-* Option 키를 이용한 단축키 지원(shortcut supported with 'Option' key)<br>
-<a href="https://github.com/nanife/GlyphsScripts_Commercial">한글모으기(Collect Hangul) V2.5 스크립트 받으러 가기</a>
+
