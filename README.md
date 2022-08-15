@@ -1,7 +1,7 @@
 # CollectHangul_Glyphs
 
 ## 업그레이드(upgrade to v2.5)
-* 플러그인 형태를 스크립트 형태로 변환 (converted plugin into script)
+* 플러그인 형태를 스크립트 형태로 변환 (converted plugin into script)<br>
 <a href="https://github.com/nanife/GlyphsScripts_Commercial">한글모으기(Collect Hangul) V2.5 스크립트 받으러 가기</a>
 <br><br>
 -----------------------------------------------------
