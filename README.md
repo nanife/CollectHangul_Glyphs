@@ -2,7 +2,7 @@
 
 ## 업그레이드(upgraded to v2.5)
 * 플러그인 형태를 스크립트 형태로 변환 (converted the plugin format into the script format)<br>
-<a href="https://github.com/nanife/GlyphsScripts_Commercial">한글모으기(Collect Hangul) V2.5 스크립트 받으러 가기</a>
+업데이트는 <a href="http://www.linegap.com">라인갭 홈페이지</a>를 통해 문의해 주십시오.(Visit <a href="http://www.linegap.com">Linegap site</a> and contact me to update.)
 <br><br>
 -----------------------------------------------------
 
