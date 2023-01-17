@@ -1,8 +1,9 @@
 # CollectHangul_Glyphs
 
-## 업그레이드(upgraded to v2.5)
-* 플러그인 형태를 스크립트 형태로 변환 (converted the plugin format into the script format)<br>
-업데이트는 <a href="http://www.linegap.com">라인갭 홈페이지</a>를 통해 문의해 주십시오.(Visit <a href="http://www.linegap.com">Linegap site</a> and contact me to update.)<br><br>
+## 업그레이드(upgraded to v2.6)
+- 플러그인 형태를 스크립트 형태로 변환 (converted the plugin format into the script format)<br>
+- 스크립트(유료) 버전 설치는 글립스의 <i>"창 > 플러그인 관리자 > 스크립트 > 라인갭 스크립트"</i>를 통해 설치할 수 있습니다.(You can install the paid script version on <i>"Windows > Plugin Manager > Scripts > Linegap's Scripts"</i>)<br><br>
+- 업데이트는 <a href="http://www.linegap.com" target="_blank">라인갭 홈페이지</a>를 통해 문의해 주십시오.(Visit <a href="http://www.linegap.com" target="_blank">Linegap site</a> and contact me to update.)<br><br>
 ![v26](./chv2.6.png)
 
 <br><br>
